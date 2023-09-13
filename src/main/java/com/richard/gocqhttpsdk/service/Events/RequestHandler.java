@@ -6,8 +6,9 @@ import com.richard.gocqhttpsdk.pojo.Request;
 import com.richard.gocqhttpsdk.pojo.event.RequestEventData;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class RequestHandler {
 
     public RequestHandler(Providers providers) {
